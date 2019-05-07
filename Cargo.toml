@@ -1,0 +1,18 @@
+[package]
+name = "automaton"
+version = "0.1.0"
+authors = ["Jack Foltz <jack@foltz.io>"]
+edition = "2018"
+
+[dependencies]
+criterion = "0.2"
+hashbrown = "0.3"
+rayon = "1.0"
+
+[[bench]]
+name = "grid_bench"
+harness = false
+
+[[bench]]
+name = "grid_mem_bench"
+harness = false
